@@ -1,0 +1,20 @@
+<h1 style="text-decoration: underline; text-align: center;">Here is San Antonio's Weather Forecast</h1>
+
+<div class="container">
+	<table class="table table-striped" align="center">
+		<thead>
+			<tr>
+				<th>Timezone</th>
+				<th>High</th>
+				<th>Low</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><%= @timezone %></td>
+				<td><%= @temperatureHigh %>° F</td>
+				<td><%= @temperatureLow %>° F</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
